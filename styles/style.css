@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+html {
+    border: 15px;
+}
+
+/* * {
+    border: 1px dotted blue;
+} */
+
+main{
+    display: grid;
+    grid-template-columns: auto, 200px;
+    grid-template-rows: 1fr;
+}
+
+h1, h2 {
+    text-align: center;
+    color: navy;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 800;
+    padding: 25px;
+}
+
+h3 {
+    text-align: center;
+    color: navy;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    padding-right: 25px;
+}
+
+.brand {
+    text-align: center;
+    padding-left: 25px;
+    width: 80px;
+}
+
+#top {
+    display: flex;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#projects {
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    
+}
+
+nav li {
+    display: inline;
+    color: navy;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: larger;
+    margin: 10px;
+    font-weight: 900;
+    padding: 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(to right, darkblue, rgb(76, 163, 193)) 1;
+}
+
+nav ul{
+    margin-right: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+nav ul li a:hover {
+    color: rgb(76, 163, 193);
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#about{
+    background-color: rgb(214, 237, 244);
+    padding-bottom: 30px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.subtitle {
+    color: rgb(76, 163, 193);
+}
+
+p, h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+figcaption {
+    font-size: smaller;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h4 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+p::first-letter {
+    font-size: larger;
+}
+
+#projects li {
+    text-align: center;
+}
+
+.subtitle2{
+    margin-top: 100px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAAXNSR0IArs4c6QAAAFBJREFUKFNjZEADR15/+g8SshHlY0SWgnPQFYD4yIrBCnGZgqwYrhDdKpi1MMWM6FaguxlmI/EKYToIWo3sGfRgQfYkSlghuxc9JFAU4gsqAETIR0vllTOzAAAAAElFTkSuQmCC)repeat;
+    justify-content: space-around;
+    padding: 10px;
+    margin-top: 15px;
+}    
+
+@media only screen and (max-width: 800px) {
+
+    main{
+        display: block;
+    }
+
+    nav li {
+        display: flex;
+        color: navy;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: larger;
+        margin: 5px;
+        font-weight: 900;
+        border-width: 1px;
+        border-style: none;
+        border-image: linear-gradient(to right, darkblue, rgb(76, 163, 193)) 1;
+    }
+
+    #about {
+        background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAAXNSR0IArs4c6QAAAFBJREFUKFNjZEADR15/+g8SshHlY0SWgnPQFYD4yIrBCnGZgqwYrhDdKpi1MMWM6FaguxlmI/EKYToIWo3sGfRgQfYkSlghuxc9JFAU4gsqAETIR0vllTOzAAAAAElFTkSuQmCC)repeat;
+        font-style: bold;
+    }
+
+    .churrasco {
+        display: block;
+    }
+
+  }

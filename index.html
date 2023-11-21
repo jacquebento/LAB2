@@ -4,37 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jacqueline Bento</title>
+    <link rel="stylesheet" href="styles/style.css">
+    
+
 </head>
 <body>
     <header>
-        <h1>Jacqueline Bento</h1>
-        <img src="images/mybrand_logo.svg" height="150" alt="my brand logo">
+        
         <nav>
-            <ul>
+            <div id="top">
+                <img class="brand" src="images/mybrand_logo.jpg" alt="my brand logo">
+                <h1>Jacqueline Bento</h1> 
+            </div>
+             <ul>
                 <li><a rel="noopener" href="#about">About me</a></li>
-                <li><a rel="noopener" href="#projects">Projects</a></li>
+                <li><a rel="noopener" href="#webdesign">Web Design</a></li>
                 <li><a rel="noopener" href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-            <section id="about">
-                <h2>About me</h2>
-                <p>Junior web designer and developer with an extended background in Graphic Design. Currentlt studying Web Design and Development at <a rel="noopener" href="https://sait.ca" target="_blank">SAIT</a> . My biggest interest in the design field is the ability to create effective solutions without leaving aside the visual aspect. I am excited about all the creativity that involves this career, however, my main values as a professional are objectivity and commitment to deadlines. In my opinion, the creative process must keep in mind the circumstances of applicability and execution time, working towards these goals is my main source of motivation and measure of success. I have had opportunities to work in leadership positions as well as within teams and I know how essential it is to maintain an environment of respect and cooperation between everyone so that work flows smoothly and the communication remains always open and accessible. </p>
-
-            </section>
+            
             <section id="projects">
-                <h2>Projects</h2>
                 <!-- includes my projects -->
-                <h4>Graphic Design</h4>
+                <h3 class="subtitle">Graphic Design</h3>
                 <ul>
                     <li>Churrasco Steakhouse Project
-                        <figure>
-                            <img src="images/churrasco_logo.svg" height="250" width="400" alt="churrasco logo">
-                            <img src="images/churrasco_buscard.jpg" height="250"  alt="churrasco business card">
-                            <img src="images/churrasco_webdesign.svg" height="250" width="400" alt="churrasco webdesign"> 
-                            <figcaption><small>Logo, business card and web design for home page</small></figcaption>
+                        <figure class="churrasco">
+                            <img src="images/c_logo.png" width="400" alt="churrasco logo">
+                            <img src="images/c_bcard.png" width="400" alt="churrasco business card">
+                            <img src="images/c_website.png"  width="400" alt="churrasco webdesign"> 
                         </figure>
+                        <figcaption><small>Logo, business card and web design for home page</small></figcaption>
                     </li>
                     <li>Illustration
                         <figure>
@@ -44,42 +45,55 @@
                     </li>
                     <li>Photo Editing
                         <figure>
-                            <img src="images/coloring.jpg" height="250"  alt="photo editing"> 
+                            <img src="images/coloring.png" height="250"  alt="photo editing"> 
                             <figcaption><small>Application of colors and textures to a black and white image</small></figcaption>
                         </figure>
                     </li>
-                </ul>
-                <h4>Web Design</h4>
-                <table>
-                    <tr>
-                      <th>Project</th>
-                      <th>Details</th>
-                    </tr>
-                    <tr>
-                        <!-- the first link is another portolio website I created previously -->
-                      <td><a href="https://jacquebento.github.io/portfolio_website/" target="_blank">Portfolio Website</a></td>
-                      <td>My current portfolio website</td>
-                    </tr>
-                    <tr>
-                      <td><a href="https://jacquebento.github.io/personal_website/wwr/index.html" target="_blank">Project Dry Oar</a></td>
-                      <td>Learning project</td>
-                    </tr>
-                    <tr>
-                        <td><a href="https://jacquebento.github.io/barber_project/" target="_blank">Project Barber Shop</a></td>
-                        <td>Learning project</td>
-                      </tr>
-                  </table>
+                    <li>Branding for events
+                        <figure>
+                            <img src="images/badge.png" height="250"  alt="badge for event"> 
+                            <figcaption><small>Logo and badge for a youth conference</small></figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <h3 id="webdesign" class="subtitle">Web Design</h3>
 
+                         <a  href="https://jacquebento.github.io/portfolio_website/" target="_blank"> <img src="images/port_website.png" height="250"  alt="screenshot of the portfolio website"> </a></td>
+                        <figcaption><small>My current portfolio website</small></figcaption>
+
+                        <a  href="https://jacquebento.github.io/personal_website/wwr/index.html" target="_blank"> <img src="images/dry_website.png" height="250"  alt="screenshot of the Dry Oar website"> </a></td>
+                        <figcaption><small>Project Dry Oar Learning project</small></figcaption>
+
+                    </li>
+                </ul>
+                
+            </section>
+            <section id="about">
+                <h2>About me</h2>
+                <p>Junior web designer and developer with an extended background in Graphic Design. Currently studying Web Design and Development at <a rel="noopener" href="https://sait.ca" target="_blank">SAIT</a> . My biggest interest in the design field is the ability to create effective solutions without leaving aside the visual aspect. I am excited about all the creativity that involves this career, however, my main values as a professional are objectivity and commitment to deadlines. In my opinion, the creative process must keep in mind the circumstances of applicability and execution time, working towards these goals is my main source of motivation and measure of success. I have had opportunities to work in leadership positions as well as within teams and I know how essential it is to maintain an environment of respect and cooperation between everyone so that work flows smoothly and the communication remains always open and accessible. </p>
+
+                <div>
+                    <h3 class="subtitle2">Skills</h3>
+                    <p>Illustrator</p>
+                    <p>Photoshop</p>
+                    <p>Canva</p>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                </div>
+
+                <div id="contact">
+                    <h3 class="subtitle2">Let's Connect</h3>
+                 <!-- linkedin link -->
+                <a class="social-link" href="https://www.linkedin.com/in/jacquelinebento/?locale=en_US" target="_blank"><img src="images/link_logo.png" height="40" alt="linkedin"></a>
+                </div>
+                
+            </section>
         
-            </section>
-            <section id="contact">
-                <h2>Contact</h2>
-                <!-- linkedin link -->
-                <a class="social-link" href="https://www.linkedin.com/in/jacquelinebento/?locale=en_US"><img src="images/link_logo.png" height="40" alt="linkedin"></a>
-            </section>
     </main>
-    <footer>
+    <footer id="footer">
+       
         &#169; Jacqueline Bento, 2023
     </footer>
+    <script src="scripts/main.js"></script>
 </body>
 </html>
