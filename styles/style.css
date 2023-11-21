@@ -11,7 +11,7 @@ html {
 
 main{
     display: grid;
-    grid-template-columns: auto, 200px;
+    grid-template-columns: 1fr 500px;
     grid-template-rows: 1fr;
 }
 
@@ -162,7 +162,6 @@ footer {
 
     #about {
         background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAAXNSR0IArs4c6QAAAFBJREFUKFNjZEADR15/+g8SshHlY0SWgnPQFYD4yIrBCnGZgqwYrhDdKpi1MMWM6FaguxlmI/EKYToIWo3sGfRgQfYkSlghuxc9JFAU4gsqAETIR0vllTOzAAAAAElFTkSuQmCC)repeat;
-        font-style: bold;
     }
 
     .churrasco {
