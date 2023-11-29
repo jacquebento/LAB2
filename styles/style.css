@@ -142,6 +142,11 @@ footer {
     margin-top: 15px;
 }    
 
+#numbers{
+    list-style: none;
+    display: none;
+}
+
 @media only screen and (max-width: 800px) {
 
     main{
