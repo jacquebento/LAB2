@@ -25,7 +25,7 @@ document.getElementById('btn-alert').onclick = () => {
      document.getElementById('txt-counter').style.color = count % 2 === 0 ? 'blue' : 'red';
      document.getElementById('txt-counter').classList = count % 2 === 0 ? 'even' : 'odd';
     console.log(document.getElementById('txt-counter').classList)
-    document.getElementById('txt-counter').innerHTML = 'Number: ' + count + ' - ' + document.getElementById('txt-counter').classList;
+    document.getElementById('txt-counter').innerHTML = 'Number: ' + count;
 }
 
 
