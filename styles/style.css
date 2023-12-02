@@ -57,7 +57,7 @@ nav {
     
 }
 
-nav li {
+nav li, #btn-alert, #btn-counter {
     display: inline;
     color: navy;
     font-family: 'Josefin Sans', sans-serif;
@@ -78,6 +78,9 @@ a {
     text-decoration: none;
 }
 
+#btn-counter:hover {
+    background-color:rgb(76, 163, 193);
+}
 
 nav ul li a:hover {
     color: rgb(76, 163, 193);
@@ -141,11 +144,6 @@ footer {
     padding: 10px;
     margin-top: 15px;
 }    
-
-#numbers{
-    list-style: none;
-    display: none;
-}
 
 @media only screen and (max-width: 800px) {
 
